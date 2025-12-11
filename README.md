@@ -1,45 +1,43 @@
 # Bobii - Discord Bot
 
-I am actively programming on this bot, so if you have any questions, suggestions for improvement or even an idea for a new function, please feel free to write on Discord.
+Ведётся активная работа над этим ботом, поэтому, если у вас есть какие-либо вопросы, предложения по улучшению или даже идеи для новых функций, пожалуйста, не стесняйтесь писать в Discord.
 
-## How does the bot work?
+## Как работает бот?
 
-The bot works with slash commands which should be suggested as soon as you write a slash in a text channel.
+Бот работает с командами, вводимыми с помощью косой черты, которые должны появляться сразу после ввода косой черты в текстовом канале.
 
-To start off you can use /helpbobii and the bot will return a message with a selection menu, simply select the section in which you are interested in.
+Для начала вы можете использовать команду /helpbobii, и бот вернет сообщение с меню выбора, просто выберите интересующий вас раздел.
 
-## Support:
+## Полдержка:
 
-If you need support you can simply message Bobii by direct message. I'm able to read the direct messages and respond to them. Another way to get help is to join the official discord server.
+Если вам нужна помощь, вы можете просто написать Боби в личные сообщения. Другой способ получить помощь — присоединиться к официальному серверу Discord.
 
-## Temp Channels:
+## Временные каналы:
 
-These are channels which are created and removed automatically. You can add a create-temp-channel with an already existing voice channel. The temp-voice-channels will be created simply by joining the create-voice-channel. Also, the temp-voice-channel is created in the same category as the create-temp-channel and will overtake the create-temp-channel permissions (If you want to work with private create-temp-channels I suggest to give Bobii advanced permissions like Administrator for example).
+Это каналы, которые создаются и удаляются автоматически. Вы можете добавить временный канал (create-temp-channel) к уже существующему голосовому каналу. Временные голосовые каналы будут созданы просто при присоединении к каналу create-voice-channel. Кроме того, временный голосовой канал создается в той же категории, что и канал create-temp-channel, и будет иметь права доступа, предоставленные каналу create-temp-channel (если вы хотите работать с приватными каналами create-temp-channel, я рекомендую предоставить Bobii расширенные права доступа, например, права администратора).
+Кроме того, у вас есть возможность создать временный текстовый канал, связанный с временным голосовым каналом.
 
-Furthermore, you have the option to create also a temp-text-channel which is linked to the temp-voice-channel.
+Владелец временного канала может редактировать его с помощью встроенных команд.
 
-The owner of the temp-channel is able to edit the temp-channel with build in commands.
+Примечание: Для управления созданными временными каналами необходимы права администратора или права управления сервером.
 
-Note: To manage the created temporary channels you need either Administrator or Manage Server rights.
+## Ссылка фильтра:
 
-## Filter Link:
+Функция фильтрации ссылок, как следует из названия, позволяет фильтровать ссылки. После активации функции фильтрации ссылок Bobii начинает блокировать все ссылки, кроме тех, что находятся в белом списке, которым можно управлять с помощью встроенных команд. Кроме того, вы можете добавить пользователей в белый список, на которых функция фильтрации ссылок не повлияет.
 
-Filter link is an option to filter links as the name already says. As soon as you activate filter link Bobii starts blocking all links except the once on the whitelist which you can manage with build in commands. Furthermore, you can add users to the whitelist which won't be affected by filter link.
+Вы также можете настроить ведение журнала, чтобы видеть, какое сообщение от какого пользователя было заблокировано.
 
-You can also set up logging to see which message from which user has been blocked.
+Примечание: Для управления функцией фильтрации ссылок вам необходимы права администратора или права управления сервером.
 
-Note: To manage filter link you need either Administrator or Manage Server rights.
+## Текстовая утилита:
+Текстовая утилита позволит вам создавать и редактировать встроенные элементы для красиво оформленных объявлений и т.д.
 
-## Text Utility:
+Примечание: Для создания встроенного элемента вам потребуются права администратора или права управления сервером..
 
-Text utility will allow you to create and edit embeds for nice looking announcement's etc.
+Вы также можете довольно просто взять эмодзи с других серверов, используя сами эмодзи (если у вас есть Nitro) или URL-адрес эмодзи. После того, как вы успешно возьмёте эмодзи, все на сервере смогут использовать их на вашем сервере, независимо от того, есть у них Nitro или нет ^•^.
 
-Note: To create an embed you need either Administrator or Manage Server rights.
+Примечание: Для того, чтобы взять эмодзи, вам необходимы права администратора или права управления сервером.
 
-You can also steal emoji's from other servers fairly simple with the emoji itself if you have nitro or with the emoji URL. Once you successfully stole the emoji everyone on the server will be able to use them in your server regardless if they have nitro or not ^^.
-
-Note: To steal an emoji you need either Administrator or Manage Server rights.
-
-**Owner and Contributors:**
+**Разработка:**
 [BobSty](https://github.com/BobSty-0)
 [Mv0sKff](https://github.com/Mv0sKff)
